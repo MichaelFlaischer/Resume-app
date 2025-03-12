@@ -1,0 +1,9 @@
+.app-footer {
+  background-color: var(--clr1);
+  color: var(--clr1bg);
+  padding-block: 1em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
