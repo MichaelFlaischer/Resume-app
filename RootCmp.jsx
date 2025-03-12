@@ -1,17 +1,15 @@
 import { Home } from './pages/Home.jsx'
+import { Header } from './cmps/Header.jsx'
+import { Footer } from './cmps/Footer.jsx'
 
 export function App() {
   return (
     <section className='app'>
-      <header className='app-header main-layout'>
-        <h1>My Resume App</h1>
-      </header>
+      <Header />
       <main className='main-layout'>
         <Home />
       </main>
-      <footer className='app-footer main-layout'>
-        <p>© {new Date().getFullYear()} Michael Flaischer | Built with React</p>
-      </footer>
+      <Footer />
     </section>
   )
 }
